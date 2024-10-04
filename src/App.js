@@ -28,10 +28,11 @@ function App() {
   console.log(userDetail, "==userDetail");
   return (
     <Fragment>
-      <button onClick={loadMoreUsers}>Add More Users</button>
-      <pre style={{color: "white"}}>{JSON.stringify(userDetail, undefined, 4)}</pre>
+   
       <Header/>
       <ProductList/>
+      <button onClick={loadMoreUsers}>Add More Users</button>
+      <pre style={{color: "white"}}>{JSON.stringify(userDetail, undefined, 4)}</pre>
     </Fragment>
   );
 }
