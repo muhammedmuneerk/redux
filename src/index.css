@@ -13,6 +13,11 @@ body {
 .container {
   max-width: 1400px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto; /* Use `0 auto` for centering horizontally */
   padding: 0 20px;
+  display: flex; /* Flexbox ensures that content inside the container can be aligned easily */
+  /*flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically if needed */
+  /*min-height: 100vh; /* Make sure the container takes full viewport height */
 }
