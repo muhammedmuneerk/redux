@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import './App.css';
 import { updateUser } from './redux/cart';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const {userDetail} = useSelector((state) => state.cart);
@@ -31,6 +32,7 @@ function App() {
    
       <Header/>
       <ProductList/>
+      <Footer/>
       <button onClick={loadMoreUsers}>Add More Users</button>
       <pre style={{color: "white"}}>{JSON.stringify(userDetail, undefined, 4)}</pre>
     </Fragment>

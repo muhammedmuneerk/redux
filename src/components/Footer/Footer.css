@@ -1,0 +1,25 @@
+footer {
+    background-color: #27293d; /* Match header color */
+    padding: 20px;
+    text-align: center;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    margin-top: 5rem;
+}
+
+footer .footer-container {
+    max-width: 1400px;
+    margin: auto;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+    color: #fff;
+}
