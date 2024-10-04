@@ -2,7 +2,7 @@ footer {
     background-color: #27293d; /* Match header color */
     padding: 20px;
     text-align: center;
-    /* position: fixed; */
+    position: fixed;
     width: 100%;
     bottom: 0;
     margin-top: 5rem;
